@@ -144,6 +144,3 @@ Si deseas contribuir al proyecto, sigue estos pasos:
 
 Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
----
-
-Con este archivo `README.md`, cualquier persona podrá entender cómo configurar y ejecutar el proyecto sin problemas. Si necesitas agregar más detalles específicos o tienes dudas sobre alguna parte, ¡no dudes en preguntar! 😊
