@@ -1,4 +1,4 @@
-# Red Social Empresarial
+# EnterpriseConnect
 
 Este proyecto es una red social empresarial desarrollada con **Jakarta EE 10**, **WildFly** como servidor de aplicaciones, y **PostgreSQL** como base de datos. El proyecto está diseñado para ejecutarse en contenedores Docker utilizando `docker-compose`.
 
@@ -29,8 +29,8 @@ red-social-empresarial/
 Si aún no has clonado el repositorio, puedes hacerlo con el siguiente comando:
 
 ```bash
-git clone https://github.com/tu-usuario/red-social-empresarial.git
-cd red-social-empresarial
+git clone https://github.com/tu-usuario/EnterpriseConnect.git
+cd EnterpriseConnect
 ```
 
 ### 2. Construir el proyecto con Maven
@@ -41,7 +41,7 @@ Ejecuta el siguiente comando para compilar el proyecto y generar el archivo `.wa
 mvn clean package
 ```
 
-Esto generará el archivo `target/red-social-empresarial.war`, que será utilizado por WildFly.
+Esto generará el archivo `target/EnterpriseConnect.war`, que será utilizado por WildFly.
 
 ### 3. Ejecutar el proyecto con Docker Compose
 
@@ -69,15 +69,15 @@ docker ps
 ```
 
 Deberías ver dos contenedores en ejecución:
-- `red-social-empresarial-app`: Servidor WildFly.
-- `red-social-empresarial-db`: Base de datos PostgreSQL.
+- `enterpriseconnect-app`: Servidor WildFly.
+- `enterpriseconnect-db`: Base de datos PostgreSQL.
 
 #### c. Acceder a la aplicación
 
 Abre tu navegador y ve a la siguiente URL:
 
 ```
-http://localhost:8080/red-social-empresarial/
+http://localhost:8080/EnterpriseConnect/
 ```
 
 Si todo está configurado correctamente, deberías ver tu aplicación en funcionamiento.
@@ -103,7 +103,7 @@ mvn clean
 También puedes eliminar los volúmenes de Docker si deseas reiniciar completamente la base de datos:
 
 ```bash
-docker volume rm red-social-empresarial_postgres_data
+docker volume rm enterpriseconnect_postgres_data
 ```
 
 ## Configuración adicional
